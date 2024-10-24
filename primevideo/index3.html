@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+.header a{
+padding: 15px;
+color:white;
+}
+
+.header a hover:{
+border:2px Solid white;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 20px;
+  width:90px;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.sign{
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 45px 50px;
+  border: none;
+  border-radius: 70px;
+  font-size: 1.8em;
+  cursor: pointer;
+  margin-top: 2px;
+height:15px;
+}
+
+.join-prime {
+  background-color: blue;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.hero {
+  background-color: #222;
+  color: #fff;
+  padding: 100px 20px;
+  
+}
+
+.hero-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.5em;
+  width:500px;
+}
+
+.hero-button {
+  background-color: #f05020;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.featured {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.featured-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.featured-item {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.featured-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.featured-item-title {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.featured-item-subtitle {
+  font-size: 0.9em;
+  color: #888;
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <img src="pvlogo.jpg" alt="Prime Video Logo" class="header-logo">
+    <a href="#">Home</a>
+    <a href="#">Movies</a>
+    <a href="#">TV shows</a>
+    <a href="#">Live TV</a>
+    <a href="#">Subscriptions</a>
+  </div>
+  <div class="header-right">
+ <button class="sign" style="background-image: url('signin.jpg');" 
+background-repeat: no-repeat;
+ ></button>
+   
+ <button class="join-prime" background-color:blue;>Join Prime</button>
+  </div>
+</header>
+
+<section class="hero" style="background-image: url('heroim1.jpg');" 
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:100%;
+  width:100%; 
+class="hero-logo">
+
+  <h1 class="hero-title">Welcome to Prime Video</h1>
+  <p class="hero-subtitle">Join Prime to watch the latest movies, TV shows and award-winning Amazon Originals</p>
+  <button class="hero-button">Sign in to join Prime</button>
+</section>
+
+<section class="featured" style="background-image: url('heroim2.jpg');" 
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:100%;
+  width:100%; >
+  <h2 class="featured-heading">Series on rent</h2>
+  <div class="featured-grid">
+    <div class="featured-item">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/51x6aQ+jJHL._AC_SY200_.jpg" alt="Call Me Bae">
+      <h3 class="featured-item-title">Call Me Bae</h3>
+      <p class="featured-item-subtitle">New series</p>
+    </div>
+    <div class="featured-item">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/81n1t0zO%2B2L._AC_SY200_.jpg" alt="The Rings of Power">
+      <h3 class="featured-item-title">The Rings of Power</h3>
+      <p class="featured-item-subtitle">New season</p>
+    </div>
+    <div class="featured-item">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/71nZ966W1QL._AC_SY200_.jpg" alt="The Lord of the Rings: The Rings of Power">
+      <h3 class="featured-item-title">The Lord of the Rings: The Rings of Power</h3>
+      <p class="featured-item-subtitle">New season</p>
+    </div>
+    <div class="featured-item">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/71y40i6vVVL._AC_SY200_.jpg" alt="Chandu Champion">
+      <h3 class="featured-item-title">Chandu Champion</h3>
+      <p class="featured-item-subtitle"></p>
+    </div>
+    <div class="featured-item">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/611aK544x5L._AC_SY200_.jpg" alt="Kalki">
+      <h3 class="featured-item-title">Kalki</h3>
+      <p class="featured-item-subtitle"></p>
+    </div>
+    <div class="featured-item">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/71N7wR5D32L._AC_SY200_.jpg" alt="Follow Karlo Yaar">
+      <h3 class="featured-item-title">Follow Karlo Yaar</h3>
+      <p class="featured-item-subtitle">New series</p>
+    </div>
+    <div class="featured-item">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/71hJ8tP9nKL._AC_SY200_.jpg" alt="Dune: Part Two">
+      <h3 class="featured-item-title">Dune: Part Two</h3>
+      <p class="featured-item-subtitle"></p>
+    </div>
+    <div class="featured-item">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/717pW6o+L1L._AC_SY200_.jpg" alt="The Wandering Inn">
+      <h3 class="featured-item-title">The Wandering Inn</h3>
+      <p class="featured-item-subtitle"></p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
